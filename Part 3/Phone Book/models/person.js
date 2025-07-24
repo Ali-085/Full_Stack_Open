@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 mongoose.set('strictQuery', false)
 
 
-const url = 'mongodb+srv://ezhdeha123:frostedheavens@cluster0.qicqgza.mongodb.net/Phonebook?retryWrites=true&w=majority&appName=Cluster0'
+const url = 'mongodb+srv://ezhdeha123:@cluster0.qicqgza.mongodb.net/Phonebook?retryWrites=true&w=majority&appName=Cluster0'
 const phoneRegex = /^\d{2,3}-\d+$/;
 
 
